@@ -1,5 +1,5 @@
 {% set name = "toolbox_utils" %}
-{% set version = "2.0.0" %}
+{% set version = "3.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/toolbox_utils-{{ version }}.tar.gz
-  sha256: ad447a48aec23b70238bf6f89bbadcb33441df75bd7e4f75881072705758e7f5
+  sha256: fa892d4eee3e09587791891fb70b74e88f35f9b440801640f92ef19dd0be8f32
 
 build:
   noarch: python
@@ -16,9 +16,13 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.8
+    - setuptools >=45
+    - setuptools-scm >=6.2
+    - wheel
     - pip
   run:
+    - python >=3.8
     - dateparser
     - tabulate
     - numpy
@@ -27,8 +31,6 @@ requirements:
     - pint-pandas
     - pint
     - pydantic
-    - setuptools
-    - setuptools_scm
     - typing-extensions
     - odfpy >=1.4.1
     - xlrd >=2.0.1
@@ -36,7 +38,7 @@ requirements:
     - pyxlsb >=1.0.8
     - pytables >=3.6.1
     - matplotlib-base >=3.3.2
-    - python >=3.8
+    - xlsxwriter
 
 test:
   imports:

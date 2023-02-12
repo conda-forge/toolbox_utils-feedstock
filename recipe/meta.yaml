@@ -20,7 +20,6 @@ requirements:
     - setuptools >=45
     - setuptools-scm >=6.2
     - wheel
-    - oldest-supported-numpy
     - pip
   run:
     - python >=3.8

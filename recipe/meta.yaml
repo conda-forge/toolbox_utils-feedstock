@@ -24,12 +24,12 @@ requirements:
     - numpy
     - scipy
     - pandas
-    - pint_pandas
+    - pint-pandas
     - pint
     - pydantic
     - setuptools
-    - setuptools_scm
-    - typing_extensions
+    - setuptools-scm
+    - typing-extensions
     - odfpy >=1.4.1
     - xlrd >=2.0.1
     - openpyxl >=3.0.7

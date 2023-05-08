@@ -1,11 +1,11 @@
-About toolbox_utils
-===================
+About toolbox_utils-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/toolbox_utils-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/toolbox-utils/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/toolbox_utils-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python toolbox for common utilities
 

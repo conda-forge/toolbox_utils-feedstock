@@ -6,23 +6,23 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/toolbox_utils-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/toolbox_utils-{{ version }}.tar.gz
   sha256: 3ae5d9803b9f92e89877a9d83fdaa149cc8b0bf6ab88201ad5a3b91858d9cc57
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - setuptools >=45
     - setuptools-scm >=6.2
     - wheel
     - pip
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - dateparser
     - tabulate
     - numpy
@@ -47,6 +47,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://pypi.org/project/toolbox-utils/

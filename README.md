@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-toolbox_utils-green.svg)](https://anaconda.org/conda-forge/toolbox_utils) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/toolbox_utils.svg)](https://anaconda.org/conda-forge/toolbox_utils) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/toolbox_utils.svg)](https://anaconda.org/conda-forge/toolbox_utils) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/toolbox_utils.svg)](https://anaconda.org/conda-forge/toolbox_utils) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-toolbox__utils-green.svg)](https://anaconda.org/conda-forge/toolbox_utils) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/toolbox_utils.svg)](https://anaconda.org/conda-forge/toolbox_utils) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/toolbox_utils.svg)](https://anaconda.org/conda-forge/toolbox_utils) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/toolbox_utils.svg)](https://anaconda.org/conda-forge/toolbox_utils) |
 
 Installing toolbox_utils
 ========================

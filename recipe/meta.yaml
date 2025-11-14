@@ -1,5 +1,5 @@
 {% set name = "toolbox_utils" %}
-{% set version = "5.2.1" %}
+{% set version = "5.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/toolbox_utils-{{ version }}.tar.gz
-  sha256: b3ca4e54494c3e47201c8309b9212b81af688a869d4fb5acbffc77ac327df781
+  sha256: 62b3c69ae07f3798964f93928d01134c0cd4879f56b76085d81895aa063387e1
 
 build:
   noarch: python

@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: toolbox_utils
-  version: "5.7.1"
+  version: "5.7.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 213d53a7e0680c35b3a2bd58b89a015b6f299c46cdc478f726a41d3b904d5634
+  sha256: 9113e29d11cf048afe477be17bf5c4841da3cdee54fee65f638d5928b02307ba
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps
 
